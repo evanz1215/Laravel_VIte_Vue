@@ -1,6 +1,6 @@
 <template>
     <div>
-        <span>Home Page</span>
+        <span>{{$t('home')}} Page</span>
 
         <router-link to="/about">
             <button>About</button>
